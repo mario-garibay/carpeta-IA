@@ -1,4 +1,6 @@
 feature1,feature2,target
 2*x + 3,x,2
 x**2 + x + 1,x,2*x + 1
-sin(x),x,cos(x)
+x*2,x,2
+3*x-7,x,3
+X*2 + 3,X,2
