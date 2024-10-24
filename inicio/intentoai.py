@@ -6,9 +6,9 @@ from sklearn.linear_model import LinearRegression
 # Paso 1: Definir el problema y recolectar datos
 # Crear un DataFrame ficticio para ilustrar
 data = pd.DataFrame({
-    'feature1': ["2*x + 3", "x**2 + x + 1", "sin(x)"],
-    'feature2': ["x", "x", "x"],
-    'target': ["2", "2*x + 1", "cos(x)"]
+    'feature1': ["2*x + 3", "x**2 + x + 1", "x*2","3*x-7","X*2 + 3"],
+    'feature2': ["x", "x", "x" ,"x","X"],
+    'target': ["2", "2*x + 1", "2" ,"3","2"]
 })
 
 # Guardar el DataFrame como un CSV (solo para fines ilustrativos)

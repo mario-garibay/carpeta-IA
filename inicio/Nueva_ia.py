@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 x = np.array([0, 1, 2, 3, 4], dtype=float)
 
 # Calcular las derivadas y la respuesta
-derivada = np.array([x**1, x**3, x**5, x**8, x**10], dtype=float).T  # Transponer para que tenga la forma correcta
-respuesta = np.array([1, 3*x**2, 5*x**4, 8*x**7, 10*x**9], dtype=float)  # No transponer aquí
+derivada = np.array([[x**1], [x**3], [x**5], [x**8], [x**10]], dtype=float).T  # Transponer para que tenga la forma correcta
+respuesta = np.array([[1*x], [3*x**2], [5*x**4], [2*x], [2*x+2]], dtype=float) 
 
 # Asegúrate de que respuesta tenga la forma correcta
 respuesta = respuesta.reshape(-1, 1)  # Cambiar la forma a (5, 1)
